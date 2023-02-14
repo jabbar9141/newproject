@@ -52,8 +52,6 @@ class AuthUserController extends Controller
                        ->with('errors',$validator->errors());
             }
 
-        // return $data;
-
         $surname = str_replace(' ', '', $request->surname);
         $fullName = ucfirst($request->name) .' '.ucfirst($surname);
         $img =   DefaultProfileImage::create($fullName,512,'#B0E0E6','#2A6092');
