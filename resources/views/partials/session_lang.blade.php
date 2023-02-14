@@ -1,0 +1,6 @@
+<?php
+//GUARDO EN SESIÓN LA VARIABLE DEL IDIOMA
+session_start();
+$_SESSION['lang'] = 'lang_es';
+//FIN DE GUARDO EN SESIÓN LA VARIABLE DEL IDIOMA
+?>

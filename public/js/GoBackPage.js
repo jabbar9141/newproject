@@ -1,0 +1,3 @@
+function GoBackPage(){
+    history.back();
+      }
